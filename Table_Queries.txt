@@ -1,0 +1,25 @@
+Query for creating Admin table in MySql ( for storing the admin information ) =>
+
+  
+    CREATE TABLE Admin(Admin_Name VARCHAR(30) , ID_Admin INT , Admin_Password VARCHAR(30));
+    
+    
+Query for creating Libraian table in MySql ( for storing the libraian information ) =>
+
+    
+     CREATE TABLE Libraian(Libraian_Name VARCHAR(30) , ID_Libraian INT , Password_Libraian VARCHAR(30));
+     
+     
+Query for creating Book table in MySql ( for storing the books information ) =>
+ 
+ 
+     CREATE TABLE Book(Book_Name VARCHAR(30) , ID_Book INT PRIMARY KEY, Book_Author VARCHAR(30) , Book_Price FLOAT , Book_Pages INT , Category VARCHAR(20) , Book_Remark VARCHAR(20) , Book_Status VARHCHAR(5) );
+      
+      
+Query for creating Issue_Book table in MySql ( for storing the issued books information ) =>
+ 
+ 
+     CREATE TABLE Issue_Book(Book_Name VARCHAR(30) , ID_Book INT PRIMARY KEY, Book_Author VARCHAR(30) , Book_Price FLOAT , Book_Pages INT , Category VARCHAR(20) , Book_Remark VARCHAR(20) , Book_Status VARHCHAR(5) );
+      
+      
+     
