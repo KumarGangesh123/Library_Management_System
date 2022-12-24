@@ -1,0 +1,28 @@
+
+This is the Library Management Project created with the help of Java Language.
+
+
+Techonologies Used in the Project =>
+
+  # Java Core ( for logic builiding )
+  # Java Swing , AWT (for designing purpose )
+  # Visual Studio Code ( for editing the code )
+  # MySql Database ( for storing the data )
+  
+  
+Users in the Project =>
+
+  # Admin 
+  # Libraian
+  
+  
+Modules in the project =>
+  
+  # Addaing a new book
+  # View added book
+  # Update a book
+  # Issue a book
+  # Return a book
+  # Delete a book
+  
+  
